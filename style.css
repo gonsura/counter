@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body {
+    text-align: center;
+    background-color: #ddd;
+}
+
+h1 {
+    padding: 2em;
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+button {
+    height: 50px;
+    width: 100px;
+    border: none;
+    background: none;
+}
+
+.btnwrap {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1em;
+    margin-top: 1em;
+}
+
+.increment-btn {
+    border: 1px solid;
+    color: #ddd;
+    border-radius: .6em;
+    background-color: rgb(42, 42, 107);
+    font-weight: 700;
+}
+.btn-active:active {
+    background: rgb(194, 76, 76);
+}
+.save {
+    border: 1px solid;
+    color: #ddd;
+    border-radius: .6em;
+    background-color: rgb(42, 42, 107);
+    font-weight: 700;
+}
+
+.mt-1 {
+    margin-top: 1em;
+}
+
+
